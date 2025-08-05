@@ -1,0 +1,82 @@
+Aula 02 - 04/08/2025 - PROGRAMAÇÃO ORIENTADA A OBJETOS
+
+ * INTRODUÇÃO:
+
+Surgiu na década de 60 e 70, sendo popularizado em 1980 com C++, ao adicionar recursos de Objetos a Linguagem C. Em 1995 surgiu o PHP e o Java.
+Objetos organizam Dados (atributos) e Comportamentos (Métodos). 
+
+ATRIBUTO = CARACTERÍSTICA DO OBJETO| MÉTODO = AÇÃO DO OBJETO
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+ * PROGRAMAÇÃO PROCEDURAL X POO:
+
+PROGRAMAÇÃO PROCEDURAL
+Variáveis Globais;
+Uso de procedimentos e funções;
+Sequencial (de cima para baixo);
+
+PROGRAMAÇÃO ORIENTADA A OBJETOS:
+Encapsulamento de dados e ações;
+Uso de Classes e Objetos;
+Métodos associados a objetos específicos;
+Modular e Hierárquica;
+Não há mistura de arquivos / ações;
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+ * VANTAGENS POO:
+
+Organização = estrutura o código em unidades lógicas e enxutas, priorizando a manutenção e entendimento;
+Reutilização = aproveita componentes em outras partes do sistema e projetos;
+Escalabilidade = proporciona base sólida para futuras atualizações, com ação de novas funcionalidades modulares;
+Manutenção = proporciona e facilita alterações em partes específicas do código.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+ * POO NO PHP:
+
+PHP4: Suporte limitado a POO com implementação básica e incompleta de Classes e Objetos.
+
+PHP5: Revolução na POO com implementação completa de Classes, Heranças, Interfaces e Métodos.
+
+PHP7+: Melhorias significativas de performance e introdução de Tipagem de Parâmetros e Retornos.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+ * PILARES POO:
+
+Encapsulamento: Oculta detalhes internos e informa somente o necessário, tendo controle e segurança de acesso de dados;
+Herança: Classes podem dereivar de outras Classes, promovendo reutilização;
+Polimorfismo: Códigos diferentes podem ser tratados de forma uniforme e semelhante.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+ * CLASSE:
+
+Diz respeito ao molde para criação de Objetos, semelhante a uma forma, é o molde.
+Possui atributos que diz respeito as características do Objeto.
+Os métodos são as ações que definem os comportamentos.
+
+
+ * OBJETO:
+
+Diz respeito a instância de uma Classe, ou seja, a sua inicialização, a sua materialização.
+Entidade do mundo real com comportamentos específicos. 
+ 
+-------------------------------------------------------------------------------------------------------------------------------------
+
+ * CRIANDO OBJETO EM PHP:
+
+Instância: $p = new Produto();
+
+Definição de Atributos: $p ->nome = "caneta";
+			$p ->preco = 3.5;
+
+Chamada de Método: $p -> exibir();
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+public = acessível por todos
+private = acessível somente na classe
+protected = acessível somente em subclasses
