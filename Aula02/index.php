@@ -17,8 +17,9 @@
 	echo("Usuário Criado: \n");
 	$u = new Usuario();
 	$u ->nome = "Thiago Balbinot\n";
-	$u ->email = "thiagobalbinot@gmail.com";
+	$u ->email = "thiagobalbinotviadaobunitu@gmail.com";
 	$u ->idade = 19;
+
 	$u -> exibir();
 
 	echo "----------------------------------";
@@ -26,7 +27,7 @@
 	echo("Usuário Criado: \n");
 	$u = new Usuario();
 	$u ->nome = "Thiago Thomasi";
-	$u ->email = "thiagothomasi@gmail.com";
+	$u ->email = "thiagothomasiviadaobunito@gmail.com";
 	$u ->idade = 20;
 	$u -> exibir();
 ?>
