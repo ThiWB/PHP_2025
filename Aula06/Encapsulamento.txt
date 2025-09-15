@@ -1,0 +1,19 @@
+ENCAPSULAMENTO:
+
+É esconder, proteger, encapsular o que não tem necessidade de mostrar. Ou seja, objetivo de fornecer uma interface controlada para ter acesso ao objeto protegido.
+Surgiu a partir da necessidade de controlar dados, não comprometendo dados que não possam ser acessados, por exemplo.
+
+Benefícios:
+* Maior segurança de dados;
+* Redução de dependências;
+* Controle de validação de acessos;
+* Facilidade de manutenção.
+
+Problemas de não usar Encapsulamento:
+* Acesso direto aos atributos;
+* Alteração sem validação;
+
+Modificadores de Acesso:
+* Public - acessível de qualquer lugar;
+* Private - acessível somente na classe;
+* Protected - acessível em classes e subclasses.
